@@ -69,7 +69,7 @@
 /* First part of user prologue.  */
 #line 1 "calc.y"
 
-#include<stdio.h>
+#include <stdio.h>
 
 int yylex();
 void yyerror(char *s);
@@ -1112,49 +1112,49 @@ yyreduce:
     {
   case 2: /* input: E  */
 #line 13 "calc.y"
-          {printf("Result = %d\n",yyvsp[0]); }
+          { printf("Result = %d\n",yyvsp[0]); }
 #line 1117 "y.tab.c"
     break;
 
   case 3: /* E: E '+' E  */
 #line 14 "calc.y"
-                { yyval == yyvsp[-2] + yyvsp[0]; }
+                { yyval = yyvsp[-2] + yyvsp[0]; }
 #line 1123 "y.tab.c"
     break;
 
   case 4: /* E: E '-' E  */
 #line 15 "calc.y"
-                { yyval == yyvsp[-2] - yyvsp[0]; }
+                { yyval = yyvsp[-2] - yyvsp[0]; }
 #line 1129 "y.tab.c"
     break;
 
   case 5: /* E: E '*' E  */
 #line 16 "calc.y"
-                { yyval == yyvsp[-2] * yyvsp[0]; }
+                { yyval = yyvsp[-2] * yyvsp[0]; }
 #line 1135 "y.tab.c"
     break;
 
   case 6: /* E: E '/' E  */
 #line 17 "calc.y"
-                { yyval == yyvsp[-2] / yyvsp[0]; }
+                { yyval = yyvsp[-2] / yyvsp[0]; }
 #line 1141 "y.tab.c"
     break;
 
   case 7: /* E: E '%' E  */
 #line 18 "calc.y"
-                { yyval == yyvsp[-2] % yyvsp[0]; }
+                { yyval = yyvsp[-2] % yyvsp[0]; }
 #line 1147 "y.tab.c"
     break;
 
   case 8: /* E: '(' E ')'  */
 #line 19 "calc.y"
-                { yyval == yyvsp[-1];}
+                { yyval = yyvsp[-1];}
 #line 1153 "y.tab.c"
     break;
 
   case 9: /* E: NUMBER  */
 #line 20 "calc.y"
-             { yyval == yyvsp[0];}
+             { yyval = yyvsp[0];}
 #line 1159 "y.tab.c"
     break;
 

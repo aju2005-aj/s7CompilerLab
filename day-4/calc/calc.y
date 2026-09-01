@@ -1,5 +1,5 @@
 %{
-#include<stdio.h>
+#include <stdio.h>
 
 int yylex();
 void yyerror(char *s);
@@ -10,14 +10,14 @@ void yyerror(char *s);
 %left '*' '/' '%'
 
 %%
-input : E {printf("Result = %d\n",$1); };
-E : E '+' E     { $$ == $1 + $3; }
-  | E '-' E     { $$ == $1 - $3; }
-  | E '*' E     { $$ == $1 * $3; }
-  | E '/' E     { $$ == $1 / $3; }
-  | E '%' E     { $$ == $1 % $3; }
-  | '(' E ')'   { $$ == $2;}
-  | NUMBER   { $$ == $1;}
+input : E { printf("Result = %d\n",$1); };
+E : E '+' E     { $$ = $1 + $3; }
+  | E '-' E     { $$ = $1 - $3; }
+  | E '*' E     { $$ = $1 * $3; }
+  | E '/' E     { $$ = $1 / $3; }
+  | E '%' E     { $$ = $1 % $3; }
+  | '(' E ')'   { $$ = $2;}
+  | NUMBER   { $$ = $1;}
   ;
 %%
 
