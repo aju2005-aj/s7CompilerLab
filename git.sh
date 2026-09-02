@@ -35,7 +35,7 @@ log "Starting git commit" >> "$COMMIT_LOG"
 git commit -m "Automated commit on $(date)" >> "$COMMIT_LOG" 2>&1
 COMMIT_STATUS=$?
 log "git commit completed with status: $COMMIT_STATUS" >> "$COMMIT_LOG"
-echo " " >> "$ADD_LOG"
+echo " " >> "$COMMIT_LOG"
 
 # No changes to commit
 if [ $COMMIT_STATUS -ne 0 ]; then
@@ -51,6 +51,6 @@ log "Starting git push" >> "$PUSH_LOG"
 git push >> "$PUSH_LOG" 2>&1
 PUSH_STATUS=$?
 log "git push completed with status: $PUSH_STATUS" >> "$PUSH_LOG"
-echo " " >> "$ADD_LOG"
+echo " " >> "$PUSH_LOG"
 
 exit $PUSH_STATUS
