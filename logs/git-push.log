@@ -49,3 +49,11 @@ To github.com:aju2005-aj/s7CompilerLab.git
    f2b9ef0..755d01c  main -> main
 [2026-09-08 10:30:04] git push completed with status: 0
  
+[2026-09-08 12:30:01] Starting git push
+ssh: Could not resolve hostname github.com: Temporary failure in name resolution
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[2026-09-08 12:30:17] git push completed with status: 128
+ 
