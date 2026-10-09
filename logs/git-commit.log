@@ -341,3 +341,37 @@
  3 files changed, 13 insertions(+)
 [2026-10-08 14:30:01] git commit completed with status: 0
  
+[2026-10-09 14:30:01] Starting git commit
+[main 1531fff] Automated commit on Fri Oct  9 02:30:01 PM IST 2026
+ 32 files changed, 13 insertions(+)
+ rename {exp1 => 1.lexicalanalyser}/lex.l (100%)
+ rename {exp1 => 1.lexicalanalyser}/lex.yy.c (100%)
+ rename {Day2 => 2.disline}/a.out (100%)
+ rename {Day2 => 2.disline}/lex.yy.c (100%)
+ rename {Day2 => 2.disline}/lines.l (100%)
+ rename {Day2 => 2.disline}/string.l (100%)
+ rename {Day2 => 3.noofvow}/vowels.l (100%)
+ rename {Day2 => 4.lowtoup}/convert.l (100%)
+ rename {day-3 => 5.yaccarithm}/Screenshot from 2026-07-31 14-51-33.png (100%)
+ rename {day-3 => 5.yaccarithm}/a.out (100%)
+ rename {day-3 => 5.yaccarithm}/lex.yy.c (100%)
+ rename {day-3 => 5.yaccarithm}/lexx.l (100%)
+ rename {day-3 => 5.yaccarithm}/y.tab.c (100%)
+ rename {day-3 => 5.yaccarithm}/y.tab.h (100%)
+ rename {day-3 => 5.yaccarithm}/yacc.y (100%)
+ rename {day-4 => 6.yaccvalidid}/a.out (100%)
+ rename {day-4 => 6.yaccvalidid}/calc/a.out (100%)
+ rename {day-4 => 6.yaccvalidid}/calc/calc.y (100%)
+ rename {day-4 => 6.yaccvalidid}/calc/clc.l (100%)
+ rename {day-4 => 6.yaccvalidid}/calc/lex.yy.c (100%)
+ rename {day-4 => 6.yaccvalidid}/calc/y.tab.c (100%)
+ rename {day-4 => 6.yaccvalidid}/calc/y.tab.h (100%)
+ rename {day-4 => 6.yaccvalidid}/exp6.l (100%)
+ rename {day-4 => 6.yaccvalidid}/exp6ya.y (100%)
+ rename {day-4 => 6.yaccvalidid}/lex.yy.c (100%)
+ rename {day-4 => 6.yaccvalidid}/rec.c (100%)
+ rename {day-4 => 6.yaccvalidid}/y.tab.c (100%)
+ rename {day-4 => 6.yaccvalidid}/y.tab.h (100%)
+ rename day-4/clc.l => clc.l (100%)
+[2026-10-09 14:30:01] git commit completed with status: 0
+ 

@@ -4,7 +4,7 @@
 %}
 identifier [a-zA-Z][a-zA-Z09]*
 %%
-#.* {printf("\m%s is a preprocessor directive",yytext);}
+#.* {printf("\n%s is a preprocessor directive",yytext);}
 int |
 flat |
 char |

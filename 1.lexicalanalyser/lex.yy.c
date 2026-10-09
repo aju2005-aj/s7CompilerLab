@@ -831,7 +831,7 @@ do_action:	/* This label is used only to access EOF actions. */
 case 1:
 YY_RULE_SETUP
 #line 7 "lex.l"
-{printf("\m%s is a preprocessor directive",yytext);}
+{printf("\n%s is a preprocessor directive",yytext);}
 	YY_BREAK
 case 2:
 #line 9 "lex.l"
