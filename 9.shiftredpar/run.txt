@@ -1,0 +1,4 @@
+gcc p.c
+./a.out
+
+id+id
