@@ -375,3 +375,28 @@
  rename day-4/clc.l => clc.l (100%)
 [2026-10-09 14:30:01] git commit completed with status: 0
  
+[2026-10-09 14:57:02] Starting git commit
+[main a93d165] Automated commit on Fri Oct  9 02:57:02 PM IST 2026
+ 27 files changed, 237 insertions(+), 48 deletions(-)
+ create mode 100755 1.lexicalanalyser/a.out
+ create mode 100644 1.lexicalanalyser/input.c
+ create mode 100644 1.lexicalanalyser/run.txt
+ rename {exp10 => 10.constantprop}/Screenshot from 2026-09-25 14-49-27.png (100%)
+ rename {exp10 => 10.constantprop}/a.out (100%)
+ rename {exp10 => 10.constantprop}/const.c (100%)
+ rename {exp11 => 11.intermediate}/codeGen.c (100%)
+ rename {exp11 => 11.intermediate}/codeGen.png (100%)
+ rename {exp12 => 12.backend}/a.out (100%)
+ rename {exp12 => 12.backend}/backend.c (100%)
+ rename {exp12 => 12.backend}/backend.png (100%)
+ rename {exp12 => 12.backend}/inputB.txt (100%)
+ rename {exp13 => 13.findE-closure}/a.out (100%)
+ rename {exp13 => 13.findE-closure}/eclosure.c (100%)
+ create mode 100644 7.calculator/cal.l
+ create mode 100644 7.calculator/cal.y
+ create mode 100644 8.recursive/rec.c
+ rename {exp9 => 9.shiftredpar}/Screenshot from 2026-09-25 14-51-01.png (100%)
+ rename {exp9 => 9.shiftredpar}/a.out (100%)
+ rename {exp9 => 9.shiftredpar}/p.c (100%)
+[2026-10-09 14:57:02] git commit completed with status: 0
+ 
