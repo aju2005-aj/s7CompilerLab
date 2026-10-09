@@ -438,8 +438,8 @@ int yy_flex_debug = 0;
 char *yytext;
 #line 1 "lines.l"
 #line 2 "lines.l"
-	#include<stdio.h>
-	int sc=0,wc=0,lc=0,cc=0;
+#include<stdio.h>
+int sc=0, wc=0, lc=0, cc=0;
 #line 444 "lex.yy.c"
 #line 445 "lex.yy.c"
 
@@ -1747,17 +1747,15 @@ void yyfree (void * ptr )
 
 int main(int argc ,char* argv[ ])
 {
-	printf("Enter the input: \n");
+	printf("Enter the input:\n");
 	yylex();
-	printf("The number of lines=%d\n",lc);
-	printf("The number of spaces=%d\n",sc);
-	printf("The number of words=%d\n",wc);
-	printf("The number of characters are=%d\n",cc);
-
-	
+	printf("The number of lines=%d\n", lc);
+	printf("The number of spaces=%d\n", sc);
+	printf("The number of words=%d\n", wc);
+	printf("The number of characters are=%d\n", cc);
 }
-int yywrap( ){
+int yywrap( )
+{
 	return 1;
 }
-
 
