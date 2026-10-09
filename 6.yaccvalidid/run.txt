@@ -1,0 +1,4 @@
+yacc -d yacc.y
+yacc -d yacc.y
+./a.out
+
